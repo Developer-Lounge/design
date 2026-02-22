@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -5,6 +7,7 @@
 body{
     background-color: black;
     color: white;
+    font-family: inter;
 }
 p1{
     text-align:left;
@@ -61,14 +64,25 @@ p1{
     right:16px;    
 }
 .topnav{
-    background-color:transparent;
+    background: rgba(225, 225, 225, .1);
     overflow:hidden;
+    display: flex;
+    align-items: center;
+    margin-left: -.5rem;
+    /* justify-content: space-between; */
+    padding: 0.5rem;
     position:fixed;  
     top:0;
-    width:90%;
+    width:100rem;
 }
+
+.topnav1{
+    display: flex;
+    margin-left: 3rem;
+}
+
 .topnav a{
-    float:left;
+    /* float:left; */
     display:block;
     color:white;
     text-align:Center;
@@ -104,7 +118,7 @@ img{
     position:relative;
     right:0;
     bottom:0;
-    width:1500px;
+    width:1600px;
     height:700px;
     opacity:0.3;
     object-fit:cover;
@@ -139,8 +153,8 @@ img{
     padding:12px 40px;
     text-align:right;
     text-decoration: none;
-    font-size:16px;
-    margin:px -20px 40px 20px;
+    font-size:15px;
+    /* margin:px -20px 40px 20px; */
     cursor:pointer;
     float: right;
     background: black;
