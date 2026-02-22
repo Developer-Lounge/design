@@ -72,6 +72,7 @@ p1{
 .topnav{
     background: rgba(225, 225, 225, .1);
     overflow:hidden;
+    z-index: 1000;
     display: flex;
     align-items: center;
     margin-left: -.5rem;
@@ -224,7 +225,8 @@ h1{
 .lu,
 .sr,
 .re,
-.pr{
+.pr,
+.ca{
     margin-left: -3rem;
     margin-top: 3rem;
 }
@@ -234,11 +236,23 @@ hr{
 }
 
 .sr-desc{
-    margin-top: 7rem;
+    margin-top: 10rem;
 }
 
-.sr-img{
+.sr-img,
+.ca-img{
     margin-left: -3rem;
+}
+
+.top-left{
+     margin-top: 20rem;
+     margin-right: 2rem;
+}
+
+.column{
+    /* display: flex; */
+    align-items: center;
+    margin-top: 3rem;
 }
 
 h5{
@@ -246,6 +260,7 @@ h5{
 }
 
 .row{
+    position: relative;
     margin-left: -3.9rem;
 }
 
