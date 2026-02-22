@@ -47,6 +47,12 @@ p1{
     padding:5px;
 
 }
+
+.row1{
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
 .row1::after{
     content:"";
     clear:both;
@@ -214,8 +220,33 @@ img.one{
 h1{
     font-size:45px;
 }
+
+.lu,
+.sr,
+.re,
+.pr{
+    margin-left: -3rem;
+    margin-top: 3rem;
+}
+
+hr{
+    margin-left: -6rem;
+}
+
+.sr-desc{
+    margin-top: 7rem;
+}
+
+.sr-img{
+    margin-left: -3rem;
+}
+
 h5{
     font-size:70px;
+}
+
+.row{
+    margin-left: -3.9rem;
 }
 
 .navbar{
