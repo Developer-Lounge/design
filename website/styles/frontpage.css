@@ -141,8 +141,12 @@ img{
     object-fit:cover;
     max-width: 100%;
     display:block;
-
 }
+
+.join{
+    margin-right: 6rem;
+}
+
 .content{
     position:relative;
     margin-left: -17rem;
@@ -181,7 +185,7 @@ img{
     right:100px;
     border:2px solid white;
     border-radius: 9px;
-    
+    transition: 333ms;
 }     
 .nav-btn:hover{
     background-color:white;
@@ -298,6 +302,7 @@ h5{
     font-size:30px;
     transition-duration: 0.4s;
     cursor:pointer;
+    right: 3rem;
     position:relative;
     background-color:transparent;
     color:white;
@@ -308,6 +313,11 @@ h5{
    
 } 
  
+.row-1{
+    position: relative;
+    margin-left: -3.9rem;
+}
+
 .button1:hover{
     background-color: white;
     color:black;
